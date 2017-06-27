@@ -58,6 +58,7 @@
     <Content Include="CreationalPatterns\Pattern_AbstractFactory\ReadMe.txt" />
     <Content Include="CreationalPatterns\Pattern_Singleton\ReadMe.txt" />
     <Content Include="CreationalPatterns\ReadMe.txt" />
+    <Content Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
