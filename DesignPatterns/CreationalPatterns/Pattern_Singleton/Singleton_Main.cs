@@ -1,10 +1,13 @@
 ﻿using System;
 
-namespace DesignPatterns.Pattern_Singleton
+namespace DesignPatterns.CreationalPatterns.Pattern_Singleton
 {
     public static class Singleton_Main
     {
-        public static void My_Main()
+        /// <summary>
+        /// Пример использования шаблона "Одиночка"
+        /// </summary>
+        public static void Go()
         {
             Computer comp = new Computer();
             comp.Launch("Windows 10");

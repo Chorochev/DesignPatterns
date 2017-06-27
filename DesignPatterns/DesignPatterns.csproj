@@ -43,10 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pattern_Singleton\Computer.cs" />
-    <Compile Include="Pattern_Singleton\Singleton.cs" />
-    <Compile Include="Pattern_Singleton\SingletonOS.cs" />
-    <Compile Include="Pattern_Singleton\Singleton_Main.cs" />
+    <Compile Include="CreationalPatterns\Pattern_Singleton\Computer.cs" />
+    <Compile Include="CreationalPatterns\Pattern_Singleton\Singleton.cs" />
+    <Compile Include="CreationalPatterns\Pattern_Singleton\SingletonOS.cs" />
+    <Compile Include="CreationalPatterns\Pattern_Singleton\Singleton_Main.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -54,10 +54,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Pattern_AbstractFactory\" />
+    <Folder Include="CreationalPatterns\Pattern_AbstractFactory\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Pattern_Singleton\ReadMe.txt" />
+    <Content Include="CreationalPatterns\Pattern_Singleton\ReadMe.txt" />
+    <Content Include="CreationalPatterns\ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

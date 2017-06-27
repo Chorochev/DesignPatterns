@@ -1,5 +1,5 @@
 ﻿/*  Классическая реализация данного шаблона проектирования */
-namespace DesignPatterns.Pattern_Singleton
+namespace DesignPatterns.CreationalPatterns.Pattern_Singleton
 {   
     class Singleton
     {
