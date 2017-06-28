@@ -43,6 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreationalPatterns\Pattern_AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="CreationalPatterns\Pattern_AbstractFactory\AbstractFactory_Main.cs" />
+    <Compile Include="CreationalPatterns\Pattern_AbstractFactory\AbstractProductA.cs" />
+    <Compile Include="CreationalPatterns\Pattern_AbstractFactory\AbstractProductB.cs" />
+    <Compile Include="CreationalPatterns\Pattern_AbstractFactory\Client.cs" />
+    <Compile Include="CreationalPatterns\Pattern_AbstractFactory\ConcreteFactory1.cs" />
+    <Compile Include="CreationalPatterns\Pattern_AbstractFactory\ConcreteFactory2.cs" />
+    <Compile Include="CreationalPatterns\Pattern_AbstractFactory\ProductA1.cs" />
+    <Compile Include="CreationalPatterns\Pattern_AbstractFactory\ProductA2.cs" />
+    <Compile Include="CreationalPatterns\Pattern_AbstractFactory\ProductB1.cs" />
+    <Compile Include="CreationalPatterns\Pattern_AbstractFactory\ProductB2.cs" />
     <Compile Include="CreationalPatterns\Pattern_Singleton\Computer.cs" />
     <Compile Include="CreationalPatterns\Pattern_Singleton\Singleton.cs" />
     <Compile Include="CreationalPatterns\Pattern_Singleton\SingletonOS.cs" />
