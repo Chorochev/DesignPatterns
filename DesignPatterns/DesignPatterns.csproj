@@ -54,6 +54,17 @@
     <Compile Include="CreationalPatterns\Pattern_AbstractFactory\ProductA2.cs" />
     <Compile Include="CreationalPatterns\Pattern_AbstractFactory\ProductB1.cs" />
     <Compile Include="CreationalPatterns\Pattern_AbstractFactory\ProductB2.cs" />
+    <Compile Include="CreationalPatterns\Pattern_Builder\Builder.cs" />
+    <Compile Include="CreationalPatterns\Pattern_Builder\Builder_Main.cs" />
+    <Compile Include="CreationalPatterns\Pattern_Builder\ConcreteBuilder.cs" />
+    <Compile Include="CreationalPatterns\Pattern_Builder\Director.cs" />
+    <Compile Include="CreationalPatterns\Pattern_Builder\Product.cs" />
+    <Compile Include="CreationalPatterns\Pattern_Builder_Labyrinth\Builder_Labyrinth.cs" />
+    <Compile Include="CreationalPatterns\Pattern_Builder_Labyrinth\Builder_Labyrinth_Main.cs" />
+    <Compile Include="CreationalPatterns\Pattern_Builder_Labyrinth\ConcreteBuilder_Labyrinth.cs" />
+    <Compile Include="CreationalPatterns\Pattern_Builder_Labyrinth\Director_Labyrinth.cs" />
+    <Compile Include="CreationalPatterns\Pattern_Builder_Labyrinth\Director_Labyrinth2.cs" />
+    <Compile Include="CreationalPatterns\Pattern_Builder_Labyrinth\Product_Labyrinth.cs" />
     <Compile Include="CreationalPatterns\Pattern_Singleton\Computer.cs" />
     <Compile Include="CreationalPatterns\Pattern_Singleton\Singleton.cs" />
     <Compile Include="CreationalPatterns\Pattern_Singleton\SingletonOS.cs" />
@@ -67,6 +78,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="CreationalPatterns\Pattern_AbstractFactory\ReadMe.txt" />
+    <Content Include="CreationalPatterns\Pattern_Builder\ReadMe.txt" />
     <Content Include="CreationalPatterns\Pattern_Singleton\ReadMe.txt" />
     <Content Include="CreationalPatterns\ReadMe.txt" />
     <Content Include="ReadMe.txt" />
