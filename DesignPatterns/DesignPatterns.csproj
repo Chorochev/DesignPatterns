@@ -72,6 +72,11 @@
     <Compile Include="CreationalPatterns\Pattern_FactoryMethod\Creator_Calling.cs" />
     <Compile Include="CreationalPatterns\Pattern_FactoryMethod\FactoryMethod_Main.cs" />
     <Compile Include="CreationalPatterns\Pattern_FactoryMethod\Product_Car.cs" />
+    <Compile Include="CreationalPatterns\Pattern_Prototype\ConcretePrototype1_Bookcase.cs" />
+    <Compile Include="CreationalPatterns\Pattern_Prototype\ConcretePrototype2_Bookcase.cs" />
+    <Compile Include="CreationalPatterns\Pattern_Prototype\ConcretePrototype3_Bookcase.cs" />
+    <Compile Include="CreationalPatterns\Pattern_Prototype\PatternPrototype_Main.cs" />
+    <Compile Include="CreationalPatterns\Pattern_Prototype\Prototype_Bookcase.cs" />
     <Compile Include="CreationalPatterns\Pattern_Singleton\Computer.cs" />
     <Compile Include="CreationalPatterns\Pattern_Singleton\Singleton.cs" />
     <Compile Include="CreationalPatterns\Pattern_Singleton\SingletonOS.cs" />
@@ -87,6 +92,7 @@
     <Content Include="CreationalPatterns\Pattern_AbstractFactory\ReadMe.txt" />
     <Content Include="CreationalPatterns\Pattern_Builder\ReadMe.txt" />
     <Content Include="CreationalPatterns\Pattern_FactoryMethod\ReadMe.txt" />
+    <Content Include="CreationalPatterns\Pattern_Prototype\ReadMy.txt" />
     <Content Include="CreationalPatterns\Pattern_Singleton\ReadMe.txt" />
     <Content Include="CreationalPatterns\ReadMe.txt" />
     <Content Include="ReadMe.txt" />
