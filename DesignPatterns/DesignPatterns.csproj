@@ -83,6 +83,13 @@
     <Compile Include="CreationalPatterns\Pattern_Singleton\Singleton_Main.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Adapter\Adaptee_AreaSquare.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Adapter\Adaptee_AreaСircle.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Adapter\AdapterCircle.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Adapter\AdapterSquare.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Adapter\Adapter_Main.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Adapter\ClientFigure.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Adapter\ITargetFigure.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -96,6 +103,8 @@
     <Content Include="CreationalPatterns\Pattern_Singleton\ReadMe.txt" />
     <Content Include="CreationalPatterns\ReadMe.txt" />
     <Content Include="ReadMe.txt" />
+    <Content Include="StructuralPatterns\Pattern_Adapter\ReadMy.txt" />
+    <Content Include="StructuralPatterns\ReadMy.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
