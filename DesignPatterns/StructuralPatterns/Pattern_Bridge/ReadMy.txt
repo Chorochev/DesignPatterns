@@ -1,0 +1,202 @@
+﻿Мост (шаблон проектирования)
+
+Шаблон мост (англ. Bridge) — структурный шаблон проектирования, используемый в проектировании программного 
+	обеспечения чтобы «разделять абстракцию и реализацию так, чтобы они могли изменяться независимо». 
+	Шаблон мост использует инкапсуляцию, агрегирование и может использовать наследование для того, чтобы 
+	разделить ответственность между классами.
+
+Цель:
+	При частом изменении класса преимущества объектно-ориентированного подхода становятся очень полезными, 
+	позволяя делать изменения в программе, обладая минимальными сведениями о реализации программы. Шаблон 
+	bridge является полезным там, где часто меняется не только сам класс, но и то, что он делает.
+	
+Описание:
+	Когда абстракция и реализация разделены, они могут изменяться независимо. Другими словами, при реализации 
+	через шаблон мост, изменение структуры интерфейса не мешает изменению структуры реализации. Рассмотрим 
+	такую абстракцию как фигура. Существует множество типов фигур, каждая со своими свойствами и методами. 
+	Однако есть что-то, что объединяет все фигуры. Например, каждая фигура должна уметь рисовать себя, 
+	масштабироваться и т. п. В то же время рисование графики может отличаться в зависимости от типа ОС, или 
+	графической библиотеки. Фигуры должны иметь возможность рисовать себя в различных графических средах, но 
+	реализовывать в каждой фигуре все способы рисования или модифицировать фигуру каждый раз при изменении 
+	способа рисования непрактично. В этом случае помогает шаблон мост, позволяя создавать новые классы, которые 
+	будут реализовывать рисование в различных графических средах. При использовании такого подхода очень легко 
+	можно добавлять как новые фигуры, так и способы их рисования.
+------------------------------------------------------------------------------------------------------------------------
+Участники:
+	- Abstraction: определяет базовый интерфейс и хранит ссылку на объект Implementor. Выполнение операций в Abstraction 
+				   делегируется методам объекта Implementor.
+	- RefinedAbstraction: уточненная абстракция, наследуется от Abstraction и расширяет унаследованный интерфейс.
+	- Implementor: определяет базовый интерфейс для конкретных реализаций. Как правило, Implementor определяет только 
+				   примитивные операции. Более сложные операции, которые базируются на примитивных, определяются в Abstraction.
+	- ConcreteImplementorA и ConcreteImplementorB: конкретные реализации, которые унаследованы от Implementor.
+	- Client: использует объекты Abstraction
+------------------------------------------------------------------------------------------------------------------------
+Пример использования:
+	- Архитектура Java AWT полностью основана на этом шаблоне — иерархия java.awt.xxx для хэндлов и sun.awt.xxx для реализаций.
+------------------------------------------------------------------------------------------------------------------------
+ссылки:
+	- https://ru.wikipedia.org/wiki/Мост_(шаблон_проектирования)
+	- https://metanit.com/sharp/patterns/4.6.php
+------------------------------------------------------------------------------------------------------------------------
+Пример 1 на C#:
+using System;
+namespace Bridge
+{ 
+  class MainApp
+  {
+    static void Main()
+    {
+      Abstraction ab = new RefinedAbstraction();
+
+      // Set implementation and call
+      ab.Implementor = new ConcreteImplementorA();
+      ab.Operation();
+
+      // Change implementation and call
+      ab.Implementor = new ConcreteImplementorB();
+      ab.Operation();
+
+      // Wait for user
+      Console.Read();
+    }
+  }
+
+  /// <summary>
+  /// Abstraction - абстракция
+  /// </summary>
+  /// <remarks>
+  /// <li>
+  /// <lu>определяем интерфейс абстракции;</lu>
+  /// <lu>хранит ссылку на объект <see cref="Implementor"/></lu>
+  /// </li>
+  /// </remarks>
+  class Abstraction
+  {
+    // Property
+    public Implementor Implementor { get; set; }
+
+    public virtual void Operation()
+    {
+      Implementor.Operation();
+    }
+  }
+
+  /// <summary>
+  /// Implementor - реализатор
+  /// </summary>
+  /// <remarks>
+  /// <li>
+  /// <lu>определяет интерфейс для классов реализации. Он не обязан точно
+  /// соотведствовать интерфейсу класса <see cref="Abstraction"/>. На самом деле оба
+  /// интерфейса могут быть совершенно различны. Обычно интерфейс класса
+  /// <see cref="Implementor"/> представляет только примитивные операции, а класс
+  /// <see cref="Abstraction"/> определяет операции более высокого уровня, 
+  /// базирующиеся на этих примитивах;</lu>
+  /// </li>
+  /// </remarks>
+  abstract class Implementor
+  {
+    public abstract void Operation();
+  }
+
+  /// <summary>
+  /// RefinedAbstraction - уточненная абстракция
+  /// </summary>
+  /// <remarks>
+  /// <li>
+  /// <lu>расширяет интерфейс, определенный абстракцией <see cref="Abstraction"/></lu>
+  /// </li>
+  /// </remarks>
+  class RefinedAbstraction : Abstraction
+  {
+    public override void Operation()
+    {
+      Implementor.Operation();
+    }
+  }
+
+  /// <summary>
+  /// ConcreteImplementor - конкретный реализатор
+  /// </summary>
+  /// <remarks>
+  /// <li>
+  /// <lu>содержит конкретную реализацию интерфейса <see cref="Implementor"/></lu>
+  /// </li>
+  /// </remarks>
+  class ConcreteImplementorA : Implementor
+  {
+    public override void Operation()
+    {
+      Console.WriteLine("ConcreteImplementorA Operation");
+    }
+  }
+
+  // "ConcreteImplementorB"
+
+  class ConcreteImplementorB : Implementor
+  {
+    public override void Operation()
+    {
+      Console.WriteLine("ConcreteImplementorB Operation");
+    }
+  }
+}
+------------------------------------------------------------------------------------------------------------------------
+Пример 2 на C#:
+class Client
+{
+    static void Main()
+    {
+        Abstraction abstraction;
+        abstraction = new RefinedAbstraction(new ConcreteImplementorA());
+        abstraction.Operation();
+        abstraction.Implementor=new ConcreteImplementorB();
+        abstraction.Operation();
+    }
+}
+abstract class Abstraction
+{
+    protected Implementor implementor;
+    public Implementor Implementor
+    {
+        set { implementor = value; }
+    }
+    public Abstraction(Implementor imp)
+    {
+        implementor = imp;
+    }
+    public virtual void Operation()
+    {
+        implementor.OperationImp();
+    }
+}
+ 
+abstract class Implementor
+{
+    public abstract void OperationImp();
+}
+ 
+class RefinedAbstraction : Abstraction
+{
+    public RefinedAbstraction(Implementor imp)
+        : base(imp)
+    {}
+    public override void Operation()
+    {
+    }
+}
+ 
+class ConcreteImplementorA : Implementor
+{
+    public override void OperationImp()
+    {
+    }
+}
+ 
+class ConcreteImplementorB : Implementor
+{
+    public override void OperationImp()
+    {
+    }
+}
+------------------------------------------------------------------------------------------------------------------------
