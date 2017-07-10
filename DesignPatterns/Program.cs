@@ -17,7 +17,8 @@ namespace DesignPatterns
             // ***********************************************************************
             // Структурные шаблоны проектирования
             //StructuralPatterns.Pattern_Adapter.Adapter_Main.Go();
-            StructuralPatterns.Pattern_Bridge.Bridge_Main.Go();
+            //StructuralPatterns.Pattern_Bridge.Bridge_Main.Go();
+            StructuralPatterns.Pattern_Composite.Composite_Main.Go();
         }
     }
 }

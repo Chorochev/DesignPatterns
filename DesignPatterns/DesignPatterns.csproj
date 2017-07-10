@@ -97,6 +97,11 @@
     <Compile Include="StructuralPatterns\Pattern_Bridge\ConcreteImplementor_Truck.cs" />
     <Compile Include="StructuralPatterns\Pattern_Bridge\Implementor_ICar.cs" />
     <Compile Include="StructuralPatterns\Pattern_Bridge\RefinedAbstraction_Transportation.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Composite\Component.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Composite\Composite.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Composite\Composite_Main.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Composite\Leaf.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Composite\TypeComponent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -112,6 +117,7 @@
     <Content Include="ReadMe.txt" />
     <Content Include="StructuralPatterns\Pattern_Adapter\ReadMy.txt" />
     <Content Include="StructuralPatterns\Pattern_Bridge\ReadMy.txt" />
+    <Content Include="StructuralPatterns\Pattern_Composite\ReadMe.txt" />
     <Content Include="StructuralPatterns\ReadMy.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
