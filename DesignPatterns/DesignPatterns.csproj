@@ -102,6 +102,13 @@
     <Compile Include="StructuralPatterns\Pattern_Composite\Composite_Main.cs" />
     <Compile Include="StructuralPatterns\Pattern_Composite\Leaf.cs" />
     <Compile Include="StructuralPatterns\Pattern_Composite\TypeComponent.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Decorator\ComponentCake.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Decorator\ComponentCakeWithCandles.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Decorator\ComponentCakeWithСhocolate.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Decorator\ConcreteComponentCake1.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Decorator\ConcreteComponentCake2.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Decorator\DecoratorCake.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Decorator\Decorator_Main.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -118,6 +125,7 @@
     <Content Include="StructuralPatterns\Pattern_Adapter\ReadMy.txt" />
     <Content Include="StructuralPatterns\Pattern_Bridge\ReadMy.txt" />
     <Content Include="StructuralPatterns\Pattern_Composite\ReadMe.txt" />
+    <Content Include="StructuralPatterns\Pattern_Decorator\ReadMe.txt" />
     <Content Include="StructuralPatterns\ReadMy.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
