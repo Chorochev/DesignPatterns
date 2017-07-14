@@ -109,6 +109,11 @@
     <Compile Include="StructuralPatterns\Pattern_Decorator\ConcreteComponentCake2.cs" />
     <Compile Include="StructuralPatterns\Pattern_Decorator\DecoratorCake.cs" />
     <Compile Include="StructuralPatterns\Pattern_Decorator\Decorator_Main.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Facade\Facade.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Facade\Facade_Main.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Facade\Namespace_Factory\PlantForTheProductionOfBricks.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Facade\Namespace_Factory\Order.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Facade\Namespace_Factory\Transportation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -126,6 +131,7 @@
     <Content Include="StructuralPatterns\Pattern_Bridge\ReadMy.txt" />
     <Content Include="StructuralPatterns\Pattern_Composite\ReadMe.txt" />
     <Content Include="StructuralPatterns\Pattern_Decorator\ReadMe.txt" />
+    <Content Include="StructuralPatterns\Pattern_Facade\ReadMe.txt" />
     <Content Include="StructuralPatterns\ReadMy.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
