@@ -114,6 +114,11 @@
     <Compile Include="StructuralPatterns\Pattern_Facade\Namespace_Factory\PlantForTheProductionOfBricks.cs" />
     <Compile Include="StructuralPatterns\Pattern_Facade\Namespace_Factory\Order.cs" />
     <Compile Include="StructuralPatterns\Pattern_Facade\Namespace_Factory\Transportation.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Flyweight\BrickHouse.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Flyweight\Flyweight_Main.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Flyweight\House.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Flyweight\HouseFactory.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Flyweight\PanelHouse.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -132,6 +137,8 @@
     <Content Include="StructuralPatterns\Pattern_Composite\ReadMe.txt" />
     <Content Include="StructuralPatterns\Pattern_Decorator\ReadMe.txt" />
     <Content Include="StructuralPatterns\Pattern_Facade\ReadMe.txt" />
+    <Content Include="StructuralPatterns\Pattern_Flyweight\ReadMe2.txt" />
+    <Content Include="StructuralPatterns\Pattern_Flyweight\ReadMy.txt" />
     <Content Include="StructuralPatterns\ReadMy.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
