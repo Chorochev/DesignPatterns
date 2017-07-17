@@ -119,6 +119,10 @@
     <Compile Include="StructuralPatterns\Pattern_Flyweight\House.cs" />
     <Compile Include="StructuralPatterns\Pattern_Flyweight\HouseFactory.cs" />
     <Compile Include="StructuralPatterns\Pattern_Flyweight\PanelHouse.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Proxy\IMath_Subject.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Proxy\Math_Proxy.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Proxy\Math_RealSubject.cs" />
+    <Compile Include="StructuralPatterns\Pattern_Proxy\Proxy_Main.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -139,6 +143,7 @@
     <Content Include="StructuralPatterns\Pattern_Facade\ReadMe.txt" />
     <Content Include="StructuralPatterns\Pattern_Flyweight\ReadMe2.txt" />
     <Content Include="StructuralPatterns\Pattern_Flyweight\ReadMy.txt" />
+    <Content Include="StructuralPatterns\Pattern_Proxy\ReadMe.txt" />
     <Content Include="StructuralPatterns\ReadMy.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -21,7 +21,8 @@ namespace DesignPatterns
             //StructuralPatterns.Pattern_Composite.Composite_Main.Go();
             //StructuralPatterns.Pattern_Decorator.Decorator_Main.Go();
             //StructuralPatterns.Pattern_Facade.Facade_Main.Go();
-            StructuralPatterns.Pattern_Flyweight.Flyweight_Main.Go();
+            //StructuralPatterns.Pattern_Flyweight.Flyweight_Main.Go();
+            StructuralPatterns.Pattern_Proxy.Proxy_Main.Go();
         }
     }
 }
