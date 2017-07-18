@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BehavioralPatterns\Pattern_ChainOfResponsibilily\ChainOfResponsibilily_Main.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_ChainOfResponsibilily\class ConcreteHandler2.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_ChainOfResponsibilily\ConcreteHandler1.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_ChainOfResponsibilily\ConcreteHandler3.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_ChainOfResponsibilily\Handler.cs" />
     <Compile Include="CreationalPatterns\Pattern_AbstractFactory\AbstractFactory.cs" />
     <Compile Include="CreationalPatterns\Pattern_AbstractFactory\AbstractFactory_Main.cs" />
     <Compile Include="CreationalPatterns\Pattern_AbstractFactory\AbstractProductA.cs" />
@@ -129,6 +134,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="BehavioralPatterns\Pattern_ChainOfResponsibilily\ReadMe.txt" />
     <Content Include="BehavioralPatterns\ReadMe.txt" />
     <Content Include="CreationalPatterns\Pattern_AbstractFactory\ReadMe.txt" />
     <Content Include="CreationalPatterns\Pattern_Builder\ReadMe.txt" />

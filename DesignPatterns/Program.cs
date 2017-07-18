@@ -22,7 +22,12 @@ namespace DesignPatterns
             //StructuralPatterns.Pattern_Decorator.Decorator_Main.Go();
             //StructuralPatterns.Pattern_Facade.Facade_Main.Go();
             //StructuralPatterns.Pattern_Flyweight.Flyweight_Main.Go();
-            StructuralPatterns.Pattern_Proxy.Proxy_Main.Go();
+            //StructuralPatterns.Pattern_Proxy.Proxy_Main.Go();
+
+            // ***********************************************************************
+            // Поведенческие шаблоны проектирования
+            BehavioralPatterns.Pattern_ChainOfResponsibilily.ChainOfResponsibilily_Main.Go();
+
         }
     }
 }
