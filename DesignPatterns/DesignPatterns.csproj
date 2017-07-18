@@ -135,6 +135,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="BehavioralPatterns\Pattern_ChainOfResponsibilily\ReadMe.txt" />
+    <Content Include="BehavioralPatterns\Pattern_Command\ReadMe.txt" />
     <Content Include="BehavioralPatterns\ReadMe.txt" />
     <Content Include="CreationalPatterns\Pattern_AbstractFactory\ReadMe.txt" />
     <Content Include="CreationalPatterns\Pattern_Builder\ReadMe.txt" />
