@@ -48,6 +48,12 @@
     <Compile Include="BehavioralPatterns\Pattern_ChainOfResponsibilily\ConcreteHandler1.cs" />
     <Compile Include="BehavioralPatterns\Pattern_ChainOfResponsibilily\ConcreteHandler3.cs" />
     <Compile Include="BehavioralPatterns\Pattern_ChainOfResponsibilily\Handler.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Command\Calculator.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Command\Command.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Command\Command_Main.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Command\ConcreteCommand_ADD_SUM.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Command\ConcreteCommand_MULTIPLY.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Command\User.cs" />
     <Compile Include="CreationalPatterns\Pattern_AbstractFactory\AbstractFactory.cs" />
     <Compile Include="CreationalPatterns\Pattern_AbstractFactory\AbstractFactory_Main.cs" />
     <Compile Include="CreationalPatterns\Pattern_AbstractFactory\AbstractProductA.cs" />
