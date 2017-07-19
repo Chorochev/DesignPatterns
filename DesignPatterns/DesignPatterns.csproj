@@ -147,6 +147,7 @@
     <Content Include="BehavioralPatterns\Pattern_Mediator\ReadMe.txt" />
     <Content Include="BehavioralPatterns\Pattern_Memento\ReadMe.txt" />
     <Content Include="BehavioralPatterns\Pattern_Observer\ReadMe.txt" />
+    <Content Include="BehavioralPatterns\Pattern_State\ReadMe.txt" />
     <Content Include="BehavioralPatterns\ReadMe.txt" />
     <Content Include="CreationalPatterns\Pattern_AbstractFactory\ReadMe.txt" />
     <Content Include="CreationalPatterns\Pattern_Builder\ReadMe.txt" />
