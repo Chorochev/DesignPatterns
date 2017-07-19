@@ -27,7 +27,8 @@ namespace DesignPatterns
             // ***********************************************************************
             // Поведенческие шаблоны проектирования
             //BehavioralPatterns.Pattern_ChainOfResponsibilily.ChainOfResponsibilily_Main.Go();
-            BehavioralPatterns.Pattern_Command.Command_Main.Go();
+            //BehavioralPatterns.Pattern_Command.Command_Main.Go();
+            BehavioralPatterns.Pattern_Interpreter.Interpreter_Main.Go();
 
         }
     }

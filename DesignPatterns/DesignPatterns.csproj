@@ -54,6 +54,12 @@
     <Compile Include="BehavioralPatterns\Pattern_Command\ConcreteCommand_ADD_SUM.cs" />
     <Compile Include="BehavioralPatterns\Pattern_Command\ConcreteCommand_MULTIPLY.cs" />
     <Compile Include="BehavioralPatterns\Pattern_Command\User.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Interpreter\AddExpression.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Interpreter\Context.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Interpreter\IExpression.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Interpreter\Interpreter_Main.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Interpreter\NumberExpression.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Interpreter\SubtractExpression.cs" />
     <Compile Include="CreationalPatterns\Pattern_AbstractFactory\AbstractFactory.cs" />
     <Compile Include="CreationalPatterns\Pattern_AbstractFactory\AbstractFactory_Main.cs" />
     <Compile Include="CreationalPatterns\Pattern_AbstractFactory\AbstractProductA.cs" />
