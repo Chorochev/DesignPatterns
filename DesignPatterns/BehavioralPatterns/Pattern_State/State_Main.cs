@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DesignPatterns.BehavioralPatterns.Pattern_State
 {
@@ -10,7 +6,16 @@ namespace DesignPatterns.BehavioralPatterns.Pattern_State
     {
         public static void Go()
         {
+            Water water = new Water(new LiquidWaterState());
+            water.Heat();
+            water.Frost();
+            water.Frost();
+            water.Frost();
+            water.Heat();
+            water.Heat();
+            water.Heat();
 
+            Console.Read();
         }
     }
 }
