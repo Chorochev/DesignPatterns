@@ -31,8 +31,8 @@ namespace DesignPatterns
             //BehavioralPatterns.Pattern_Interpreter.Interpreter_Main.Go();            
             //BehavioralPatterns.Pattern_Iterator.Iterator_Main.Go();            
             //BehavioralPatterns.Pattern_Mediator.Mediator_Main.Go();
-            BehavioralPatterns.Pattern_Memento.Memento_Main.Go();
-            //BehavioralPatterns.Pattern_Observer.Observer_Main.Go();
+            //BehavioralPatterns.Pattern_Memento.Memento_Main.Go();
+            BehavioralPatterns.Pattern_Observer.Observer_Main.Go();
             //BehavioralPatterns.Pattern_State.State_Main.Go();
             //BehavioralPatterns.Pattern_Strategy.Strategy_Main.Go();
             //BehavioralPatterns.Pattern_TemplateMethod.TemplateMethod_Main.Go();

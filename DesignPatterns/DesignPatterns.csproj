@@ -76,7 +76,13 @@
     <Compile Include="BehavioralPatterns\Pattern_Memento\Hero.cs" />
     <Compile Include="BehavioralPatterns\Pattern_Memento\HeroMemento.cs" />
     <Compile Include="BehavioralPatterns\Pattern_Memento\Memento_Main.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Observer\Bank.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Observer\Broker.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Observer\IObservable.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Observer\IObserver.cs" />
     <Compile Include="BehavioralPatterns\Pattern_Observer\Observer_Main.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Observer\Stock.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Observer\StockInfo.cs" />
     <Compile Include="BehavioralPatterns\Pattern_State\State_Main.cs" />
     <Compile Include="BehavioralPatterns\Pattern_Strategy\Strategy_Main.cs" />
     <Compile Include="BehavioralPatterns\Pattern_TemplateMethod\TemplateMethod_Main.cs" />
