@@ -60,6 +60,10 @@
     <Compile Include="BehavioralPatterns\Pattern_Interpreter\Interpreter_Main.cs" />
     <Compile Include="BehavioralPatterns\Pattern_Interpreter\NumberExpression.cs" />
     <Compile Include="BehavioralPatterns\Pattern_Interpreter\SubtractExpression.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Iterator\Aggregate.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Iterator\ConcreteAggregate.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Iterator\ConcreteIterator.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Iterator\Iterator.cs" />
     <Compile Include="BehavioralPatterns\Pattern_Iterator\Iterator_Main.cs" />
     <Compile Include="BehavioralPatterns\Pattern_Mediator\Mediator_Main.cs" />
     <Compile Include="BehavioralPatterns\Pattern_Memento\Memento_Main.cs" />
