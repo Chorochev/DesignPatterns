@@ -72,6 +72,9 @@
     <Compile Include="BehavioralPatterns\Pattern_Mediator\Mediator_Main.cs" />
     <Compile Include="BehavioralPatterns\Pattern_Mediator\ProgrammerColleague.cs" />
     <Compile Include="BehavioralPatterns\Pattern_Mediator\TesterColleague.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Memento\GameHistory.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Memento\Hero.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Memento\HeroMemento.cs" />
     <Compile Include="BehavioralPatterns\Pattern_Memento\Memento_Main.cs" />
     <Compile Include="BehavioralPatterns\Pattern_Observer\Observer_Main.cs" />
     <Compile Include="BehavioralPatterns\Pattern_State\State_Main.cs" />
