@@ -15,7 +15,7 @@ namespace DesignPatterns.BehavioralPatterns.Pattern_Observer
         {
             this.Name = name;
             stock = obs;
-            stock.RegisterObserver(this);
+            stock.RegisterObserver(this);            
         }
 
         public void Update(object ob)

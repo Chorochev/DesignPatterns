@@ -8,12 +8,13 @@ namespace DesignPatterns.BehavioralPatterns.Pattern_Observer
     class Bank : IObserver
     {
         public string Name { get; set; }
-        IObservable stock;
+        //IObservable stock;
         public Bank(string name, IObservable obs)
         {
             this.Name = name;
-            stock = obs;
-            stock.RegisterObserver(this);
+            //stock = obs;
+            //stock.RegisterObserver(this);
+            obs.RegisterObserver(this);
         }
         public void Update(object ob)
         {
