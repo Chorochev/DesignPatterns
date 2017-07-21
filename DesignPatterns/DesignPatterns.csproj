@@ -99,6 +99,13 @@
     <Compile Include="BehavioralPatterns\Pattern_TemplateMethod\School.cs" />
     <Compile Include="BehavioralPatterns\Pattern_TemplateMethod\TemplateMethod_Main.cs" />
     <Compile Include="BehavioralPatterns\Pattern_TemplateMethod\University.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Visitor\ConcreteVisitor_ToHTML.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Visitor\ConcreteVisitor_ToXML.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Visitor\Element_Company.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Visitor\Element_Person.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Visitor\IElement_Account.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Visitor\IVisitor.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Visitor\ObjectStructure_Bank.cs" />
     <Compile Include="BehavioralPatterns\Pattern_Visitor\Visitor_Main.cs" />
     <Compile Include="CreationalPatterns\Pattern_AbstractFactory\AbstractFactory.cs" />
     <Compile Include="CreationalPatterns\Pattern_AbstractFactory\AbstractFactory_Main.cs" />
