@@ -89,6 +89,11 @@
     <Compile Include="BehavioralPatterns\Pattern_State\SolidWaterState.cs" />
     <Compile Include="BehavioralPatterns\Pattern_State\State_Main.cs" />
     <Compile Include="BehavioralPatterns\Pattern_State\Water.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Strategy\ConcreteStrategy_CallingBus.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Strategy\ConcreteStrategy_CallingTaxi.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Strategy\ConcreteStrategy_CallingTruck.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Strategy\Context_CallingAvto.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_Strategy\IStrategy.cs" />
     <Compile Include="BehavioralPatterns\Pattern_Strategy\Strategy_Main.cs" />
     <Compile Include="BehavioralPatterns\Pattern_TemplateMethod\TemplateMethod_Main.cs" />
     <Compile Include="BehavioralPatterns\Pattern_Visitor\Visitor_Main.cs" />
