@@ -95,7 +95,10 @@
     <Compile Include="BehavioralPatterns\Pattern_Strategy\Context_CallingAvto.cs" />
     <Compile Include="BehavioralPatterns\Pattern_Strategy\IStrategy.cs" />
     <Compile Include="BehavioralPatterns\Pattern_Strategy\Strategy_Main.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_TemplateMethod\Education.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_TemplateMethod\School.cs" />
     <Compile Include="BehavioralPatterns\Pattern_TemplateMethod\TemplateMethod_Main.cs" />
+    <Compile Include="BehavioralPatterns\Pattern_TemplateMethod\University.cs" />
     <Compile Include="BehavioralPatterns\Pattern_Visitor\Visitor_Main.cs" />
     <Compile Include="CreationalPatterns\Pattern_AbstractFactory\AbstractFactory.cs" />
     <Compile Include="CreationalPatterns\Pattern_AbstractFactory\AbstractFactory_Main.cs" />
